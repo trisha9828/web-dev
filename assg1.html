@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>container web page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <style>
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: darkslategrey;
+            }
+            
+            li {
+              float: left;
+            }
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            li a:hover {
+              background-color: #111;
+            }
+            .topnav input[type=text] {
+              float: right;
+              padding: 6px;
+              margin-top: 8px;
+              margin-right: 16px;
+              border: none;
+              font-size: 17px;
+            }
+
+            @media screen and (max-width: 600px) {
+              .topnav a, .topnav input[type=text] {
+                float: none;
+                display: block;
+                text-align: left;
+                width: 100%;
+                margin: 0;
+                padding: 14px;
+            }
+  
+             .topnav input[type=text] {
+              border: 1px solid #ccc;  
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid p-3 my-3 bg-dark text-white">
+            <div class="mx-auto " style="width: 400px">
+                <h1>Container Web Page</h1>
+            </div>
+            <div class="topnav">
+            <ul>
+                <li><a class="active" href="#home">HOME</a> </li> 
+                <li><a href="#news">NEWS</a> </li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><input type="text" placeholder="Search"</li>
+            </ul>
+            </div>
+        </div>   
+        <div class="container-fluid p-3 my-3 bg-warning text-white">
+            <div class="mx-auto " style="width: 400px">
+                <h1>Containers info:</h1>
+                <p>     Bootstrap requires a containing element to wrap site contents.
+                  Containers are used to pad the content inside of them, and there are two container classes available:
+                  The .container class provides a responsive fixed width container
+                  The .container-fluid class provides a full width container, spanning the entire width of the viewport</p>
+            </div>
+        </div> 
+        <div class="container-fluid p-3 my-3 bg-dark text-white">
+            <div class="row">
+                <div class="col" style="background-color: goldenrod;">
+                  <h1>Links to refer:</h1>
+                    <div class="vertical-menu">
+                      <a href="#" class="active">Home</a>
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                      <a href="#">Link 4</a>
+                    </div>
+                </div>    
+                <div class="col" style="background-color:burlywood;"  >
+                  <h1>Additional info:</h1>
+                  <img src="Camilo Huinca www.camilohuinca.com.jpg" alt="image" style="width: 128px;height: 128px;">
+                  <p>Use the .container class to create a responsive, fixed-width container</p>
+                </div>
+
+               
+                <div class="col" style="background-color: goldenrod;">column</div>
+            </div>             
+        </div>
+
+    </body>
+</html>
